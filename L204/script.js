@@ -1,6 +1,7 @@
-var i = 0;
+var password = "tornike";
+var sheyvana = prompt("შეიყვანე პაროლი: ")
+while (sheyvana !== "tornike") {
+	sheyvana = prompt("შეიყვანეთ პაროლი")
 
-while(i<3){
-	alert("რიცხვი: " + i + "!");
-	++i;
 }
+document.write ("თქვენ შეხვედით თქვენ პირად სივრცეში ")

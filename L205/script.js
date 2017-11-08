@@ -1,6 +1,7 @@
-var paroli = prompt("შეიყვანე: faskunji");
+var password = "tornike";
+var sheyvana = prompt("შეიყვანე პაროლი: ")
+while (sheyvana !== "tornike") {
+	sheyvana = prompt("შეიყვანეთ პაროლი")
 
-
-if (paroli === "faskunji") {
-	alert("თქვენ შეხვედით");
 }
+document.write ("თქვენ შეხვედით თქვენ პირად სივრცეში ")
