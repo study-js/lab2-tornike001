@@ -1,10 +1,4 @@
-var i = 0;
-while(++i < 5) alert(i);
-
-
-//////////////////////////////////
-
-
-for (var j = 0; j < 5; ++j){
-	alert(j);
+for (var i = 0; i < 21; ++i) {
+	if (i % 2 !== 0) continue;
+	document.write(i + "<br>")
 }
